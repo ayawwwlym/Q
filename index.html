@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Четыре правила вёрстки</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image" href="https://code.s3.yandex.net/web-code/rules-favicon.ico">
+</head>
+<body>
+  <header class="header">
+    <div class="overlay">
+      <h1 class="header-title">Qalyn Mal</h1>
+    </div>
+  </header>
+  <section class="content">
+    <div class="card">
+      <img src="education.jpg" class="card-image" height="260">
+      <h3 class="card-title">Education</h3>
+      <select id="education">
+      	<option value="1">Undergraduate degree</option>
+      	<option value="2">College degree</option>
+      	<option value="3">High school degree</option>
+      	<option value="4">Middle school degree</option>
+      </select>
+    </div>
+    <div class="card no-right-margin">
+      <img src="https://english-skype.net/wp-content/uploads/2019/08/large-multi-gen-travel-1280x640.jpg" class="card-image" height="270">
+      <h3 class="card-title">Family net worth</h3>
+      <select id="family">
+        <option value="1">More than 100,000$</option>
+        <option value="2">Between 50,000$ and 100,000$</option>
+        <option value="3">Less than 50,000$</option>
+      </select>
+    </div>
+    <div class="card">
+      <img src="https://lumen5.com/learn/wp-content/uploads/2019/06/marketing-skills.jpg" class="card-image" height="260">
+      <h3 class="card-title">Skills</h3>
+      <form class="card-text">
+       <p><input type="checkbox" id="optionn1">Playing on dombra<Br>
+       <input type="checkbox" id="optionn2">Good cook<Br>
+       <input type="checkbox" id="optionn3">Easygoing character<Br> 
+       <input type="checkbox" id="optionn4">Sings well</p>
+      </form>
+    </div>
+    <div class="card no-right-margin">
+      <img src="age.png" class="card-image">
+      <h3 class="card-title">Age</h3>
+      <form class="card-text">
+       <p><input type="radio" id="opt1">Between 18-23<Br>
+       <input type="radio" id="opt2">Between 24-27<Br>
+       <input type="radio" id="opt3">28+<Br> 
+      </form>
+    </div>
+    <div class="card">
+      <img src="https://images.theconversation.com/files/107953/original/image-20160112-6964-cxk0kg.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1200&h=1200.0&fit=crop" class="card-image" height="260">
+      <h3 class="card-title">Reputation</h3>
+      <form class="card-text">
+       <p><input type="checkbox" id="option1">Gossips about his/her parent's attitude<Br>
+       <input type="checkbox" id="option2">Gossips about his/her character<Br> 
+       <input type="checkbox" id="option3">General gossips around his/her person</p>
+      </form>
+    </div>
+  </section>
+  <div class="btn">
+    <a class="buttonn">Calculate</a><br><br><br>
+    <span id="res">Result</span>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
